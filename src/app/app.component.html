@@ -1,0 +1,20 @@
+<nav class="text-center">
+  <a class="bg-sky-400 mr-4 p-2 rounded-lg text-white hover:shadow-xl hover:bg-sky-300 "
+    [routerLink]="['/home']">Home</a>
+  <a class="bg-sky-400 mr-4 p-2 rounded-lg text-white hover:shadow-xl hover:bg-sky-300 " [routerLink]="['/about']">About
+    us</a>
+  <a class="bg-sky-400 mr-4 p-2 rounded-lg text-white hover:shadow-xl hover:bg-sky-300 "
+    [routerLink]="['/contact']">Contact us</a>
+  <a class="bg-sky-400 mr-4 p-2 rounded-lg text-white hover:shadow-xl hover:bg-sky-300 "
+    [routerLink]="['/products']">Products</a>
+  <a class="bg-sky-400 mr-4 p-2 rounded-lg text-white hover:shadow-xl hover:bg-sky-300 "
+    [routerLink]="['/login']">Login</a>
+  <a class="bg-sky-400 mr-4 p-2 rounded-lg text-white hover:shadow-xl hover:bg-sky-300 "
+    [routerLink]="['/protected']">Protected</a>
+</nav>
+
+<div id="content">
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>

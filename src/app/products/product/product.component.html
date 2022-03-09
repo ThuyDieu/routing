@@ -1,0 +1,7 @@
+<p>Products</p>
+<div>
+    <a [routerLink]="['./main']">Main</a>
+    <a [routerLink]="['./more-info']">More info</a>
+    Enter id: <input #id class="shadow-lg">
+</div>
+<button class="mt-4 bg-violet-400 rounded-lg w-36 text-white text-xl"(click)="goToProduct(id.value)">Go</button>
